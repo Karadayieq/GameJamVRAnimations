@@ -1,0 +1,267 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'tr' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Dell/New Unity Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50244
+Successfully changed project path to: C:/Users/Dell/New Unity Project
+C:/Users/Dell/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dell/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   NVIDIA
+    VRAM:     1984 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014589 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1659ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1990ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (697ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (47.8 KB). Loaded Objects now: 1990.
+Memory consumption went from 68.8 MB to 68.7 MB.
+Total: 5.896100 ms (FindLiveObjects: 0.494300 ms CreateObjectMapping: 0.147300 ms MarkObjects: 5.126500 ms  DeleteObjects: 0.125300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 736131.726367 seconds.
+  path: Assets/casual_Female_G-model@Drunk Idle Variation.fbx
+  artifactKey: Guid(523685d483424a246af40434dc605edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/casual_Female_G-model@Drunk Idle Variation.fbx using Guid(523685d483424a246af40434dc605edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0d814c360e57da6d6c9c99768d1343') in 0.198638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.718472 seconds.
+  path: Assets/Animations/casual_Female_G-model@Texting And Walking.fbx
+  artifactKey: Guid(7dab8a5ee4735374aaa2077fb4dd357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/casual_Female_G-model@Texting And Walking.fbx using Guid(7dab8a5ee4735374aaa2077fb4dd357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a440f08720d01f61a4f780cc653c181d') in 0.466283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animations/elder_Female_A-model@Female Walk.fbx
+  artifactKey: Guid(960764daab5f7244a8274560828b7ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/elder_Female_A-model@Female Walk.fbx using Guid(960764daab5f7244a8274560828b7ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9e002a5a2274bfd3bd35f518b3cc92') in 0.070425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animations/Doctor_Male_B-model@Strut Walking.fbx
+  artifactKey: Guid(74606a205889a1f4b988dcbcce5d9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Doctor_Male_B-model@Strut Walking.fbx using Guid(74606a205889a1f4b988dcbcce5d9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07373e447c4f538057a7fd427e29f0f') in 0.051510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/elder_Female_A-model@Walker Walk.fbx
+  artifactKey: Guid(6013fdf170f75ad49bb916e2e0c5144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/elder_Female_A-model@Walker Walk.fbx using Guid(6013fdf170f75ad49bb916e2e0c5144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48aead6a4077887ad3056f48028eb4a') in 0.066806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/police_Female_A-model@Female Tough Walk.fbx
+  artifactKey: Guid(46f48c9017480a941aab7b11f1f2284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/police_Female_A-model@Female Tough Walk.fbx using Guid(46f48c9017480a941aab7b11f1f2284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c4aef27e59590700287eaa173020d4') in 0.043527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.201073 seconds.
+  path: Assets/Characters/casual_Female_K-model.fbx
+  artifactKey: Guid(827bb9d642e0bcc468bf24bf125101ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/casual_Female_K-model.fbx using Guid(827bb9d642e0bcc468bf24bf125101ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9649b13c2e7cf7df3a79d02364cb01aa') in 0.082358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/police_Female_A-model.fbx
+  artifactKey: Guid(ce913f25960eeb7448bcc30479917b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/police_Female_A-model.fbx using Guid(ce913f25960eeb7448bcc30479917b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8eccf5b100fd20d77186ac55903988') in 0.078173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Characters/little_boy_B-model.fbx
+  artifactKey: Guid(672a8251cba6b2d45ac2b705da27a10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/little_boy_B-model.fbx using Guid(672a8251cba6b2d45ac2b705da27a10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7454287edd838594b47baf79b9d755') in 0.149258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Characters/Doctor_Male_B-model.fbx
+  artifactKey: Guid(16a949f02b2796b49a7a74e599a41938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Doctor_Male_B-model.fbx using Guid(16a949f02b2796b49a7a74e599a41938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551936d86aa37dc32732878ce24b795e') in 0.122539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Characters/world_people_colors.png
+  artifactKey: Guid(b3366599c9a98b4458ffdd7a4fbd5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/world_people_colors.png using Guid(b3366599c9a98b4458ffdd7a4fbd5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc522f073dc39f85d8d5f3745d22b4f3') in 0.054162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.157612 seconds.
+  path: Assets/NPC Prefabs/casual_Female_G-model@Texting And Walking.prefab
+  artifactKey: Guid(11b44fc8a18e17142abb5cc6f1b16b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC Prefabs/casual_Female_G-model@Texting And Walking.prefab using Guid(11b44fc8a18e17142abb5cc6f1b16b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216ae5f38ddcdd5e3b56b187465bab08') in 0.074699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NPC Prefabs/police_Female_A-model@Female Tough Walk.prefab
+  artifactKey: Guid(685a8aa0f8fbb9b4488d5b62581fee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC Prefabs/police_Female_A-model@Female Tough Walk.prefab using Guid(685a8aa0f8fbb9b4488d5b62581fee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fcdcbabef2fb168a552f91661e56a3') in 0.051787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NPC Prefabs/elder_Female_A-model@Female Walk.prefab
+  artifactKey: Guid(6a95fb3230507ed40873920db24be3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC Prefabs/elder_Female_A-model@Female Walk.prefab using Guid(6a95fb3230507ed40873920db24be3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9259325b174cce78d97f5df1b660b2b5') in 0.073681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPC Prefabs/casual_Female_K-model@Catwalk Walking.prefab
+  artifactKey: Guid(5f8a3e24bffb12949b7b25045f5e2f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC Prefabs/casual_Female_K-model@Catwalk Walking.prefab using Guid(5f8a3e24bffb12949b7b25045f5e2f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4d96148fad43b2f78dabaf6608f864') in 0.064630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NPC Prefabs/little_boy_B-model@Happy Walk.prefab
+  artifactKey: Guid(5801150d83057ae4abf829f396f7e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC Prefabs/little_boy_B-model@Happy Walk.prefab using Guid(5801150d83057ae4abf829f396f7e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'B_Walk': Transition '' in state 'Happy Walk' uses parameter '' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: 'c809cf9e25beb83cbfa55262203bde38') in 0.045799 seconds 
